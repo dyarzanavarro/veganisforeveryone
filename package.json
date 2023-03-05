@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
+    "@nuxtjs/supabase": "^0.3.1",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@nuxtjs/web-vitals": "^0.2.2",
+    "nuxt": "^3.2.3"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^3.0.0",
+    "nuxt-cookie-control": "^1.9.93"
+  }
+}
