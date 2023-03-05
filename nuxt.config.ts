@@ -12,17 +12,19 @@ export default ({
           content: "Welcome to our vegan recipe blog, where we share easy-to-make, healthy, and delicious plant-based meals for everyone to enjoy. From appetizers to desserts, we've got you covered with creative vegan recipes that are perfect for any occasion."
         }
       ],
-        link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' }]
     }
-},
-    modules: [    '@nuxtjs/tailwindcss',   '@nuxtjs/robots',  '@nuxtjs/web-vitals', '@nuxtjs/supabase', '@nuxt/image-edge'],
-    image: {  screens: {      xs: 320,      sm: 640,      md: 768,      lg: 1024,      xl: 1280,      xxl: 1536,      '2xl': 1536    },
-    },
+  },
+  //@nuxtjs/supabase'
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots', '@nuxtjs/web-vitals', '@nuxt/image-edge'],
+  image: {
+    screens: { xs: 320, sm: 640, md: 768, lg: 1024, xl: 1280, xxl: 1536, '2xl': 1536 },
+  },
 
-    content: [
-        './pages/**/*.{html,js}',
-        './components/**/*.{html,js}',
-      ],
-      pages: true,
-      compilerOptions: {    "types": ["@nuxt/types", "@nuxt/image"]  }
+  content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+  ],
+  pages: true,
+  compilerOptions: { "types": ["@nuxt/types", "@nuxt/image"] }
 })
