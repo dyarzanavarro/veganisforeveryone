@@ -26,5 +26,6 @@ export default ({
     './components/**/*.{html,js}',
   ],
   pages: true,
-  compilerOptions: { "types": ["@nuxt/types", "@nuxt/image"] }
+  compilerOptions: { "types": ["@nuxt/types", "@nuxt/image"] },
+  target: 'static',
 })

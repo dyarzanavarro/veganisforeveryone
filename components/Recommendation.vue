@@ -23,7 +23,7 @@
         <nuxt-link to="/recipes" class="block">
           <nuxt-img
             alt="food1"
-            src="img/food1.jpg"
+            src="/img/food1.jpg"
             class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-lg"
           />
 
@@ -42,7 +42,7 @@
         <nuxt-link to="/recipes" class="block">
           <nuxt-img
             alt="food1"
-            src="img/food2.jpg"
+            src="/img/food2.jpg"
             class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-lg"
           />
 
@@ -61,7 +61,7 @@
         <nuxt-link to="/recipes" class="block">
           <nuxt-img
             alt="food3"
-            src="img/food3.jpg"
+            src="/img/food3.jpg"
             class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-lg"
           />
 
@@ -79,7 +79,7 @@
         <nuxt-link to="/recipes" class="block">
           <nuxt-img
             alt="food4"
-            src="img/food4.jpg"
+            src="/img/food4.jpg"
             class="h-64 w-full object-cover sm:h-80 lg:h-96 rounded-lg"
           />
 
