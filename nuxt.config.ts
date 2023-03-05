@@ -18,6 +18,7 @@ export default ({
   //@nuxtjs/supabase'
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/robots', '@nuxtjs/web-vitals', '@nuxt/image-edge'],
   image: {
+    provider: 'netlify',
     screens: { xs: 320, sm: 640, md: 768, lg: 1024, xl: 1280, xxl: 1536, '2xl': 1536 },
   },
 
